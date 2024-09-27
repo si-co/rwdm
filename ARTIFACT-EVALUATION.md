@@ -17,10 +17,19 @@ does not return the exact list of court cases used for
 our analysis; see [Limitations](##limitations) for more 
 details.
 
-Given the extreme simplicity of our artifacts
-we do not use one of the VM provided 
-for the evaluation, but we are happy to do so
-if required by the reviewers.
+The analysis of court cases contains 
+comments and excerpts from the legal
+decisions in English, Italian, and French, 
+since the cases under analysis are
+originally in French and Italian. 
+We do not provide translations of the
+analysis, preferring to use the original documents 
+employed during our research.
+
+Given the simplicity of our artifacts, 
+we do not use one of the provided VMs for
+the evaluation. 
+However, we are happy to do so if required by the reviewers.
 
 ### Security/Privacy Issues and Ethical Concerns (All badges)
 There are no security or privacy issues. However, the dataset 
