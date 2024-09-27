@@ -11,8 +11,12 @@ This artifact includes the Python script used to query
 [https://entscheidsuche.ch/](https://entscheidsuche.ch) 
 to obtain an initial list of court cases in Switzerland. 
 We manually prune and analyze this list as explained in 
-Section 5.1 of the paper. The complete dataset used for 
-our legal analysis is also provided. Note that the script 
+Section 5.1 of the paper. 
+The complete dataset, 
+including our detailed manual analysis of the cases, 
+is provided to support 
+the conclusions presented in our results.
+Note that the script 
 does not return the exact list of court cases used for 
 our analysis; see [Limitations](##limitations) for more 
 details.
