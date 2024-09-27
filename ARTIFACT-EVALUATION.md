@@ -1,0 +1,102 @@
+# Artifact Appendix
+
+Paper title: Real-World Deniability in Messaging
+
+Artifacts HotCRP Id: 18
+
+Requested Badge: Available, Functional, Reproduced
+
+## Description
+This artifact includes the Python script used to query 
+[https://entscheidsuche.ch/](https://entscheidsuche.ch) 
+to obtain an initial list of court cases in Switzerland. 
+We manually prune and analyze this list as explained in 
+Section 5.1 of the paper. The complete dataset used for 
+our legal analysis is also provided. Note that the script 
+does not return the exact list of court cases used for 
+our analysis; see [Limitations](##limitations) for more 
+details.
+
+Given the extreme simplicity of our artifacts
+we do not use one of the VM provided 
+for the evaluation, but we are happy to do so
+if required by the reviewers.
+
+### Security/Privacy Issues and Ethical Concerns (All badges)
+There are no security or privacy issues. However, the dataset 
+contains excerpts and comments from court cases, which may be 
+disturbing to some readers (mentions of cases involving child 
+abuse, CSAM material, and drug trafficking).
+
+## Basic Requirements (Only for Functional and Reproduced badges)
+Evaluating this artifact requires only a commodity laptop, 
+negligible storage, and less than one minute of compute time.
+
+### Hardware Requirements
+No specific hardware requirements.
+
+### Software Requirements
+This artifact requires Python (tested with Python 3.12.6) and 
+the [requests package](https://pypi.org/project/requests/) 
+(tested with requests 2.32.3).
+
+### Estimated Time and Storage Consumption
+Negligible storage and less than one minute to execute the 
+Python script.
+
+## Environment 
+Our artifacts consist of: 
+1) A Python script to retrieve relevant court cases. 
+2) The results of our legal analysis.
+
+### Accessibility (All badges)
+Our artifact's repository is available at: 
+[https://github.com/si-co/rwdm](https://github.com/si-co/rwdm).
+
+### Set Up the Environment (Only for Functional and Reproduced badges)
+Reviewers need to install Python (tested with Python 3.12.6) and 
+the requests package (tested with requests 2.32.3). To install 
+the package, use the OS package manager or run:
+
+```
+pip install --user requests
+```
+
+Then, clone the repository:
+
+```
+git clone git@github.com:si-co/rwdm.git
+```
+
+### Testing the Environment (Only for Functional and Reproduced badges)
+No functionality tests are required.
+
+## Artifact Evaluation (Only for Functional and Reproduced badges)
+Our artifact includes a Python script used to fetch the initial 
+list of court cases from [https://entscheidsuche.ch/](https://entscheidsuche.ch) 
+and the complete dataset from our legal analysis.
+
+### Main Results and Claims
+List all your paper's results and claims supported by your 
+submitted artifacts.
+
+#### Main Result 1: Results of Legal Analysis 
+The results of our legal analysis are summarized in Table 1 
+(Section 5.2, page 10). The complete legal analysis is stored 
+in a CSV file in our repository (`court_cases.csv`) and on 
+Google Docs ([link to Google Sheet](https://docs.google.com/spreadsheets/d/1psvkAAeBUqzPOz0-RSDSplAG4UZzS7nY6-s5lP351rQ/edit?gid=0#gid=0)).
+
+### Experiments 
+To run the Python script that retrieves the URLs of the legal 
+cases from [https://entscheidsuche.ch/](https://entscheidsuche.ch), 
+run `python search.py` from the root of the repository.
+
+## Limitations (Only for Functional and Reproduced badges)
+The `search.py` script returns a list of court cases that does 
+not exactly match the list used for our legal analysis. Some 
+cases returned by the script were added after our analysis, 
+while approximately 15 cases have been removed since. We are 
+unaware of the reasons for their removal from the 
+[https://entscheidsuche.ch/](https://entscheidsuche.ch) database, 
+but analyzing these additional cases (not present in the current 
+results returned by our script) only strengthens our analysis.
