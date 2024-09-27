@@ -83,7 +83,7 @@ submitted artifacts.
 #### Main Result 1: Results of Legal Analysis 
 The results of our legal analysis are summarized in Table 1 
 (Section 5.2, page 10). The complete legal analysis is stored 
-in a CSV file in our repository (`court_cases.csv`) and on 
+in a CSV file in our repository ([court_cases.csv](court_cases.csv) and on 
 Google Docs ([link to Google Sheet](https://docs.google.com/spreadsheets/d/1psvkAAeBUqzPOz0-RSDSplAG4UZzS7nY6-s5lP351rQ/edit?gid=0#gid=0)).
 
 ### Experiments 
