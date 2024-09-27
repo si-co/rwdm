@@ -64,7 +64,9 @@ Our artifacts consist of:
 
 ### Accessibility (All badges)
 Our artifact's repository is available at: 
-[https://github.com/si-co/rwdm](https://github.com/si-co/rwdm).
+[https://github.com/si-co/rwdm](https://github.com/si-co/rwdm)
+[commit
+8707de3d3598b32a3525f4ac58c2a49a2c0eb0c3](https://github.com/si-co/rwdm/tree/8707de3d3598b32a3525f4ac58c2a49a2c0eb0c3).
 
 ### Set Up the Environment (Only for Functional and Reproduced badges)
 Reviewers need to install Python (tested with Python 3.12.6) and 
