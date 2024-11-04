@@ -8,6 +8,6 @@ we use to query
 and the complete results of our legal analysis 
 (Section 5 in the paper).
 The description of the artifact is provided in 
-[ARTIFACT_EVALUATION.md](ARTIFACT_EVALUATION.md).
+[ARTIFACT-EVALUATION.md](ARTIFACT-EVALUATION.md).
 
 The content of this repository is distributed under GNU GPLv3 license.
