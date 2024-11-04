@@ -7,6 +7,9 @@ Artifacts HotCRP Id: 18
 Requested Badge: Available, Functional, Reproduced
 
 ## Description
+**Warning**: The court cases under analysis are in 
+French and Italian.
+
 This artifact includes the Python script used to query 
 [https://entscheidsuche.ch/](https://entscheidsuche.ch) 
 to obtain an initial list of court cases in Switzerland. 
