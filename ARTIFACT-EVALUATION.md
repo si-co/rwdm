@@ -19,7 +19,7 @@ the conclusions presented in our results.
 Note that the script 
 does not return the exact list of court cases used for 
 our analysis; 
-[Limitations](#limitations-only-for-functional-and-reproduced-badges)
+see [Limitations](#limitations-only-for-functional-and-reproduced-badges)
 for more details.
 
 The analysis of court cases contains 
