@@ -8,4 +8,4 @@ we use to query
 and the complete results of our legal analysis 
 (Section 5 in the paper).
 
-Our script is distributed under GNU GPLv3 license.
+The content of this repository is distributed under GNU GPLv3 license.
