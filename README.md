@@ -10,4 +10,7 @@ and the complete results of our legal analysis
 The description of the artifact is provided in 
 [ARTIFACT-EVALUATION.md](ARTIFACT-EVALUATION.md).
 
+**Warning**: The court cases under analysis are in 
+French and Italian.
+
 The content of this repository is distributed under GNU GPLv3 license.
