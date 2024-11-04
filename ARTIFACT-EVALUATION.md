@@ -18,8 +18,9 @@ is provided to support
 the conclusions presented in our results.
 Note that the script 
 does not return the exact list of court cases used for 
-our analysis; see [Limitations](##limitations) for more 
-details.
+our analysis; 
+[Limitations](#limitations-only-for-functional-and-reproduced-badges)
+for more details.
 
 The analysis of court cases contains 
 comments and excerpts from the legal
