@@ -109,7 +109,7 @@ The results summarized in Table 1 are available in our repository on [line 343 o
 
 | VISITED | N/A       | PROOF     | CONTESTED | REJECTED |
 |---------|-----------|-----------|-----------|----------|
-| 341     | 201 (59%) | 140 (41%) | 2         | 0        |
+| 341     | 201 (59%) | 140 (41%) | 2 (1%)    | 0        |
 
 ### Experiments 
 To run the Python script that retrieves the URLs of the legal 
