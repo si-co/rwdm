@@ -104,7 +104,7 @@ submitted artifacts.
 The results of our legal analysis are summarized in Table 1 
 (Section 5.2, page 10). The complete legal analysis is stored 
 in a CSV file in our repository ([court_cases.csv](court_cases.csv)) and on 
-Google Docs ([link to Google Sheet](https://docs.google.com/spreadsheets/d/1psvkAAeBUqzPOz0-RSDSplAG4UZzS7nY6-s5lP351rQ/edit?gid=0#gid=0)).
+Google Docs ([link to Google Sheet](https://docs.google.com/spreadsheets/d/1jbrGybF6xHQECzPDFgT4IZRxp6C0MYVYRhkfAuYwMH0/edit?usp=sharing)).
 The results summarized in Table 1 are available in our repository on [line 343 of the court_cases.csv file](https://github.com/si-co/rwdm/blob/main/court_cases.csv#L343) and reported below:
 
 | VISITED | N/A       | PROOF     | CONTESTED | REJECTED |
