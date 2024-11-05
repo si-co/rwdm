@@ -30,9 +30,11 @@ comments and excerpts from the legal
 decisions in English, Italian, and French, 
 since the cases under analysis are
 originally in French and Italian. 
-We do not provide translations of the
-analysis, preferring to use the original documents 
-employed during our research.
+We provide a translation of our comments along
+with the original comments that we used 
+for our analysis, which are in English, French and Italian.
+We translated the comments with the help of ChatGPT, but
+we manually verified all the translations.
 
 Given the simplicity of our artifacts, 
 we do not use one of the provided VMs for
