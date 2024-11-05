@@ -23,7 +23,11 @@ Note that the script
 does not return the exact list of court cases used for 
 our analysis; 
 see [Limitations](#limitations-only-for-functional-and-reproduced-badges)
-for more details.
+for more details, where we describe also the additional
+Python script [download_cases.py](download_cases.py)
+and ZIP file [court_cases.zip](court_cases.zip)
+that we provide to increase the reproducibility
+of our results.
 
 The analysis of court cases contains 
 comments and excerpts from the legal
@@ -35,6 +39,7 @@ with the original comments that we used
 for our analysis, which are in English, French and Italian.
 We translated the comments with the help of ChatGPT, but
 we manually verified all the translations.
+
 
 Given the simplicity of our artifacts, 
 we do not use one of the provided VMs for
@@ -127,3 +132,20 @@ unaware of the reasons for their removal from the
 [https://entscheidsuche.ch/](https://entscheidsuche.ch) database, 
 but analyzing these additional cases (not present in the current 
 results returned by our script) only strengthens our analysis.
+
+To improve the reproducibility of 
+our results we provide an additional 
+script ([download_cases.py](download_cases.py)) 
+that downloads the HTML or PDF file of all the 
+court cases that we analyzed 
+(listed in [court_cases.csv](court_cases.csv)). The
+script has the same dependencies as the script 
+that we use to fetch the URL of the cases
+and can be run with
+`python search.py` from the root of the repository.
+It creates a `court_cases` folder with 341 files for 39 MB.
+The ZIP file 
+[court_cases.zip](court_cases.zip) (19MB)
+contains all the files that the 
+[download_cases.py](download_cases.py) script downloads 
+(as of 5th of November 2024).
