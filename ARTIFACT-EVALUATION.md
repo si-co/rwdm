@@ -78,7 +78,7 @@ Our artifact's repository is available at:
 [https://github.com/si-co/rwdm](https://github.com/si-co/rwdm).
 Reviewers can use 
 [commit
-e0e980fdb96782d3c4e1a75e2579264379dc0d76](https://github.com/si-co/rwdm/commit/e0e980fdb96782d3c4e1a75e2579264379dc0d76).
+c81cb1d1517dc59bef1156934ebeee61129d11f6](https://github.com/si-co/rwdm/tree/c81cb1d1517dc59bef1156934ebeee61129d11f6).
 
 ### Set Up the Environment (Only for Functional and Reproduced badges)
 Reviewers need to install Python (tested with Python 3.12.6) and 
